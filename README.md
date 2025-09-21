@@ -206,6 +206,7 @@ Update of some entry in products is possible with `PUT` request and proper body 
 Using different metrics with proper filtering, important data about Flask app request‘s behaviour can be evaluated:
 
 `flask_http_request_total`
+
 `flask_http_request_duration_seconds_count`
 
 ![Grafana-http-request-total](./docs/grafana-http-request-total.png)
