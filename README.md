@@ -120,7 +120,7 @@ sudo docker build --tag flask_app:0.0.1 .
 
 ### Configure Prometheus
 The file `prometheus.yml` contains definitions of targets which emits metrics with node exporter.
-In this project these are Lubuntu servers with IP addresses: `192.168.1.120`, `192.168.1.121` and `192.168.1.120`.
+In this project these are Lubuntu servers with IP addresses: `192.168.1.120`, `192.168.1.121` and `192.168.1.122`.
 
 The Flask App is configured in separate Prometheus job and its target is Docker container service name.
 
